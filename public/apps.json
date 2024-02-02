@@ -1,0 +1,21 @@
+[
+  {
+    "appTitle": "NoteBird",
+    "appDesc": "Realtime Note-Taking App",
+    "appImagePath": "/appImages/noteBirdIcon.png",
+    "appAvailableForAndroid": true,
+    "appAvailableForIOS": true
+  },
+  {
+    "appTitle": "Cashalyzer",
+    "appDesc": "Offline CashBook",
+    "appAvailableForAndroid": true,
+    "appAvailableForIOS": false
+  },
+  {
+    "appTitle": "App Test Value",
+    "appDesc": "Description of App 2",
+    "appAvailableForAndroid": false,
+    "appAvailableForIOS": true
+  }
+]

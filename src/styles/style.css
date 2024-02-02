@@ -1,0 +1,37 @@
+.underLine{
+    text-decoration: none;
+    position: relative;
+}
+.underLine:after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #ff3c78, #ff8c00);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.underLine:hover{
+    color: #ffffff;
+}
+
+.underLine:hover::after{
+    width: 100%;
+}
+
+.underLined{
+    text-decoration: none;
+        position: relative;
+}
+
+.underLined::after{
+        content: "";
+        position: absolute;
+        background: linear-gradient(to right, #ff3c78, #ff8c00);
+        height: 3px;
+        width: 100%;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
