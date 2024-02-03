@@ -17,13 +17,13 @@ function Header() {
         setShowMenu(!showMenu);
     };
     return (
-        <div className="flex flex-row place-content-stretch bg-black/30 backdrop-blur-md">
-            <img src={"/Logo.png"} alt="Logo" className=' md:h-52 h-24 w-fit mt-10 ml-10'></img>
+        <div id='topElement' className="flex flex-row place-content-stretch bg-black/30 backdrop-blur-md">
+            <img src={"/Logo.png"} alt="Logo" className=' md:h-52 h-24 w-fit mt-10 ml-2 md:ml-10'></img>
 
             <nav className=" mt-10 py-auto h-fit flex flex-row ml-auto mr-5 space-x-10 justify-center">
                 <h1 className="hidden md:flex w-fit h-fit my-auto  text-white  hover:text-[#ff7895] underLine cursor-pointer "> WINDOWS STORE </h1>
                 {showAndroid ? (
-                    <h1 className="w-fit  h-fit my-auto  cursor-pointer text-white  underLined" onClick={() => { dispatch(showLandingExceptAll()); }}> ANDROID & IOS</h1>) : (
+                    <h1 className="w-fit  h-fit my-auto  cursor-pointer text-white  underLined text-nowrap" onClick={() => { dispatch(showLandingExceptAll()); }}> ANDROID & IOS</h1>) : (
                     <h1 className="w-fit  h-fit my-auto   text-white underLine hover:text-[#FF69B4] cursor-pointer  " onClick={() => { dispatch(setAllFalse()); dispatch(setShowAndroidStore(true)); }}>ANDROID & IOS </h1>
                 )}
                 {showHome ? (

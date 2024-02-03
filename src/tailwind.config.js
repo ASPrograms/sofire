@@ -4,7 +4,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ["./*.js", "./components/*.js", "./components/AndroidStore/*.js"],
+  purge: ["./*.js", "./components/*.js", "./components/MobileStore/*.js"],
   content: [],
   theme: {
     extend: {

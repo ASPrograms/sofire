@@ -4,18 +4,28 @@
     "appDesc": "Realtime Note-Taking App",
     "appImagePath": "/appImages/noteBirdIcon.png",
     "appAvailableForAndroid": true,
-    "appAvailableForIOS": true
+    "appAvailableForIOS": true,
+    "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/NotebirdInstaller.apk",
+    "longDesc": "NoteBird is a project published as a web-app, an android app and a CLI on demand for developers. It fosters the salient features of Google Keep Notes and Microsoft One Note. Not only plain notes, but it also provides a ToDoList and List-of-titled-notes. We also have our own cloud where you can upload and store the related documents and images."
   },
+
   {
     "appTitle": "Cashalyzer",
     "appDesc": "Offline CashBook",
+    "appImagePath": "/appImages/cashalyzerIcon.png",
     "appAvailableForAndroid": true,
-    "appAvailableForIOS": false
+    "appAvailableForIOS": false,
+    "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/Cashalyzer_Installer.apk",
+    "longDesc": "Cashalyzer is an offline cash-book that helps you keep a track of outgoing and incoming money in the form of cash. The amount has to be entered manually, and rest of the work is done by us :) We also provide a powerful search system that retrieves your expenses on the base of dates, items, sender, receiver and more!"
   },
+
   {
-    "appTitle": "App Test Value",
-    "appDesc": "Description of App 2",
-    "appAvailableForAndroid": false,
-    "appAvailableForIOS": true
+    "appTitle": "TicTacToe AI Edition",
+    "appDesc": null,
+    "appImagePath": "/appImages/ticTacToeIcon.png",
+    "appAvailableForAndroid": true,
+    "appAvailableForIOS": false,
+    "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/TicTacToeAIEdition_Installer.apk",
+    "longDesc": "It is a simple Tic Tac Toe game staged on Android 10+ . It has a built in bot to play against, that has ML implemented in it. Yes, it learns from your moves! Also, the game provides a 2 player mode. Soft animations and eye-pleasing theme do play a good role too."
   }
 ]
