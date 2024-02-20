@@ -8,9 +8,9 @@ function Home() {
     const dispatcher = useDispatch();
     return (
         <div className='h-full pb-10 w-full place-content-center px-5'>
-            <h1 className='my-auto mt-5 mx-auto w-fit text-5xl text-pink-700 font-[CherrySwash]'>
+            <h1 className='my-auto mt-5 mx-auto w-fit text-5xl text-[#7d36aa] font-[CherrySwash]'>
                 <span onClick={() => { dispatcher(setShowHome(false)); dispatcher(setShowLandingScreen(true)); }}
-                    className='hover:text-orange-500 hover:text-6xl cursor-pointer duration-300 transition-all'>
+                    className='hover:text-[#298db9] hover:text-6xl cursor-pointer duration-300 transition-all'>
                     Sofire/
                 </span>
                 <span className='text-white text-3xl'>HOME</span>

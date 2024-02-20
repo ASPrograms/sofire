@@ -57,14 +57,14 @@ function LandingScreen() {
             <h1 className=' my-auto mt-[35%] md:mt-[5%] font-[CherrySwash] mx-auto h-fit w-fit  text-3xl transition-all duration-300 text-white animate-fade-in'> Welcome to </h1>
             {/* <img src='Logo.png' className=' mx-auto mt-16'></img> */}
 
-            <h1 className=' w-fit mx-auto font-[CherrySwash] text-[#ff4171] text-7xl md:text-9xl transition-all duration-200'><span className="text-white">{SofireMessage}</span>{fireMessage}</h1>
-            <h1 className=' w-fit mx-auto font-[CherrySwash] text-[#ff9147] text-xl md:text-3xl transition-all duration-200'>{fireMessage2}</h1>
+            <h1 className=' w-fit mx-auto font-[CherrySwash] text-[#298db9] text-7xl md:text-9xl transition-all duration-200'><span className="text-white">{SofireMessage}</span>{fireMessage}</h1>
+            <h1 className=' w-fit mx-auto font-[CherrySwash] text-[#7d36aa] text-xl md:text-3xl transition-all duration-200'>{fireMessage2}</h1>
             <br></br>
             {/* <h1 className=' w-fit mx-auto text-[#ff4171] text-3xl'> By - <span className=' text-white'>Ashwin Sharma</span></h1> */}
-            <h1 className=' w-fit mx-auto  text-xl text-white mt-32  mb-5'> New to this site? Start with Home <span className=' text-[#ff4171] text-sm'> <FaHome onClick={() => { dispatcher(setShowHome(true)); dispatcher(setShowLandingScreen(false)); }} className=' text-4xl mx-auto mt-5 cursor-pointer hover:fill-orange-400 hover:scale-110 transition-all duration-300' /></span> </h1>
+            <h1 className=' w-fit mx-auto  text-xl text-white mt-32  mb-5'> New to this site? Start with Home <span className=' text-[#7d36aa] text-sm'> <FaHome onClick={() => { dispatcher(setShowHome(true)); dispatcher(setShowLandingScreen(false)); }} className=' text-4xl mx-auto mt-5 cursor-pointer hover:fill-orange-400 hover:scale-110 transition-all duration-300' /></span> </h1>
 
             <h1 className=' absolute bottom-14 right-5 w-fit font-[CherrySwash] text-4xl text-white'>Created by</h1>
-            <h1 className=' absolute bottom-5 right-5  w-fit  font-[CherrySwash] text-2xl text-[#ff4171]'>Ashwin Sharma</h1>
+            <h1 className=' absolute bottom-5 right-5  w-fit  font-[CherrySwash] text-2xl text-[#298db9]'>Ashwin Sharma</h1>
 
 
         </ div>

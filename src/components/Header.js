@@ -24,11 +24,11 @@ function Header() {
                 <h1 className="hidden md:flex w-fit h-fit my-auto  text-white  hover:text-[#ff7895] underLine cursor-pointer "> WINDOWS STORE </h1>
                 {showAndroid ? (
                     <h1 className="w-fit  h-fit my-auto  cursor-pointer text-white  underLined text-nowrap" onClick={() => { dispatch(showLandingExceptAll()); }}> ANDROID & IOS</h1>) : (
-                    <h1 className="w-fit  h-fit my-auto   text-white underLine hover:text-[#FF69B4] cursor-pointer  " onClick={() => { dispatch(setAllFalse()); dispatch(setShowAndroidStore(true)); }}>ANDROID & IOS </h1>
+                    <h1 className="w-fit  h-fit my-auto   text-white underLine hover:text-[#298db9] cursor-pointer  " onClick={() => { dispatch(setAllFalse()); dispatch(setShowAndroidStore(true)); }}>ANDROID & IOS </h1>
                 )}
                 {showHome ? (
                     <h1 className="w-fit  h-fit my-auto  cursor-pointer text-white  underLined" onClick={() => { dispatch(showLandingExceptAll()) }}> HOME</h1>) : (
-                    <h1 className="w-fit  h-fit my-auto   text-white underLine hover:text-[#FF69B4] cursor-pointer  " onClick={() => { dispatch(setAllFalse()); dispatch(setShowHome(true)); }}> HOME </h1>
+                    <h1 className="w-fit  h-fit my-auto   text-white underLine hover:text-[#298db9] cursor-pointer  " onClick={() => { dispatch(setAllFalse()); dispatch(setShowHome(true)); }}> HOME </h1>
                 )}
                 <input placeholder='Search' className=' placeholder-[#777] bg-[#1e1e1e] text-white py-2 px-2 min-w-14 rounded-lg md:inline hidden'></input>
                 <div className=' h-[42px] cursor-pointer w-[42px] rounded-full bg-[#1e1e1e] translate-x-[-20px]'></div>

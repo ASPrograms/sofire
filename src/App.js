@@ -16,6 +16,7 @@ function App() {
     (state) => state.master.showAndroidStore
   );
 
+  // FOR GOOGLE ANALYTICS
   useEffect(() => {
     // Initialize Google Analytics
     window.dataLayer = window.dataLayer || [];
