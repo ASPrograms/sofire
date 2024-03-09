@@ -35,7 +35,7 @@
     "appImagePath": "/appImages/ticTacToeIcon.png",
     "appAvailableForAndroid": true,
     "appAvailableForIOS": false,
-    "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/TicTacToeAIEdition_Installer.apk",
+    "downloadPath": "https://github.com/ASPrograms/notebird_crossplatform/releases/download/1.0.0-beta/app-release.apk",
     "longDesc": "Sophisticated realtime note taking app with a beautiful User interface maintaining a high performance by painting ur entire screen by our own system specially developed to work on low as well as high end resources. No-delay syncing over all platforms with your account logged in, is the primary strength of this app."
   }
 ]
