@@ -27,5 +27,15 @@
     "appAvailableForIOS": false,
     "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/TicTacToeAIEdition_Installer.apk",
     "longDesc": "It is a simple Tic Tac Toe game staged on Android 10+ . It has a built in bot to play against, that has ML implemented in it. Yes, it learns from your moves! Also, the game provides a 2 player mode. Soft animations and eye-pleasing theme do play a good role too."
+  },
+  
+  {
+    "appTitle": "NoteBird PRO",
+    "appDesc": "Realtime Note-Taking Muti-platform App",
+    "appImagePath": "/appImages/ticTacToeIcon.png",
+    "appAvailableForAndroid": true,
+    "appAvailableForIOS": false,
+    "downloadPath": "https://github.com/ASPrograms/sofire/releases/download/installer-set-v0.1/TicTacToeAIEdition_Installer.apk",
+    "longDesc": "Sophisticated realtime note taking app with a beautiful User interface maintaining a high performance by painting ur entire screen by our own system specially developed to work on low as well as high end resources. No-delay syncing over all platforms with your account logged in, is the primary strength of this app."
   }
 ]
